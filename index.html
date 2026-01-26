@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CVPR26 J2A Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+        }
+        a {
+            color: #6ea8fe;
+        }
+        a:hover {
+            color: #9ec5fe;
+        }
+        .bg-body-tertiary {
+            background-color: #16213e !important;
+        }
+        .text-body-secondary {
+            color: #adb5bd !important;
+        }
+        .responsive-image {
+            width: 50%;
+            height: auto;
+        }
+        .responsive-image img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+  </head>
+
+  <body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <strong>CVPR 2026 J2A Workshop</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">Overview and Call for Papers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#organizers">Organizers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dates">Important Dates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+    <div class="responsive-image">
+        <img src="edge_pics/j2a_logo.png" alt="CVPR 2026">
+    </div>
+        <rect width="100%" height="100%"></rect>
+        <span> </span>
+
+        <div class="text-center">
+        <span class="fs-1"><b>The First Workshop on <span style="color:#fcd045">Journey to the Awards</span>: Generative AI for Movie-Grade Video Production (<span style="color:#fcd045">J2A</span>)</b> </span>
+        </div>
+
+        <ul class="nav nav-pills">
+            <h2>CVPR 2026, Denver, Colorado</h2>
+
+<!--      <li class="nav-item"><a href="#papers" class="nav-link active" aria-current="page">Papers</a></li>-->
+<!--      <li class="nav-item"><a href="#speakers" class="nav-link active" aria-current="page">Speakers</a></li>-->
+      </ul>
+    </header>
+  </div>
+
+<!--<br>-->
+<!--<hr>-->
+<!--<br>-->
+<div class="text-center" id="overview">
+<h1>Overview and Call for Papers</h1>
+</div>
+<br>
+
+<div class="container">
+<p class="lead">
+
+The First Workshop on <strong>Journey to the Awards</strong>: Generative AI for Movie-Grade Video Production (<strong>J2A</strong>) at CVPR 2026 will explore how generative AI and multimodal LLMs can support the full film production pipeline. J2A emphasizes on <strong>studio-caliber cinematic video generation</strong>, and the integration of generative AI into the complete movie production pipeline, from ideation to post-production. We aim to bring together researchers and practitioners advancing generative tools that support studios and filmmakers in creating long-form, production-quality work with strong creative coherence. Topics of interest include movie-grade video generation, AI-assisted directing, automatic casting (such as AI-powered talent discovery and virtual auditions), storyboarding, cinematography, director's cut, editing, post-production, trailer generation, and more. Through these efforts, we envision generative AI advancing the creative industries and opening more pathways to cinematic storytelling.
+</p>
+
+<p class="lead">
+The topics involved in the workshop include but are not limited to:
+</p>
+
+    <ul class="lead">
+
+    <li> <strong>Generative Video Modeling:</strong> </li>
+
+        <ul>
+        <li> Movie-grade video generation with diffusion models, autoregressive models, and hybrids. </li>
+        <li> Long-form video generation with multi-scene temporal coherence and cinematic structure. </li>
+        <li> Multimodal prompting techniques for narrative-driven generation. </li>
+        <li> Large-scale datasets for cinematic video generation. </li>
+        </ul>
+
+    <li> <strong>Generative AI in Pre-Production:</strong> </li>
+
+        <ul>
+        <li> Script-to-video generation. </li>
+        <li> AI-assisted storyboarding and shot planning.  </li>
+        <li> AI-assisted casting and character design.  </li>
+        <li> Multimodal LLMs for script writing and narrative coherence. </li>
+        </ul>
+
+    <li> <strong>Generative AI in Production:</strong> </li>
+
+        <ul>
+        <li> Virtual cinematography ("previz") and camera control.</li>
+        <li> AI-driven directing and scene composition.</li>
+        <li> Multi-agent collaboration for scene orchestration (coordinated arrangement and control of all visual, auditory, and narrative elements within a scene). </li>
+        <li> Real-time feedback and (production-time) editing tools for movie creators. </li>
+        </ul>
+
+
+    <li> <strong>Generative AI in Post-Production:</strong> </li>
+
+        <ul>
+        <li> AI-assisted (semi-)automatic trailer generation.  </li>
+        <li> AI-powered editing and director's cuts.  </li>
+        <li> AI-assisted VFX generation, digital intermediate processing, and content enhancement. </li>
+
+        </ul>
+
+    <li> <strong>Evaluation and Quality Metrics:</strong> </li>
+
+        <ul>
+        <li> Benchmarking cinematic quality in AI-generated videos. </li>
+        <li> Subjective vs. objective evaluation in creative media.  </li>
+        <li> Assessing narrative consistency and audience engagement.  </li>
+        </ul>
+
+    </ul>
+
+
+
+
+    <p class="lead">
+    <strong>Format</strong>: Submissions must use the <a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines">CVPR 2026 Author Kit for Latex/Word Zip file</a> and follow the CVPR 2026 author instructions and submission policies. Submissions need to be anonymized. <strong>A paper accepted to CVPR 2026 main conference can be resubmitted to our Extended Abstract track. A paper accepted by another venue can be resubmitted to our Extended Abstract track if allowed by that venue. Any submission to another CVPR 2026 Workshop cannot be resubmitted to J2A 2026.</strong> The workshop considers two submission tracks:
+  <ul class="lead">
+        <li> <strong>Long Paper</strong>: submissions are limited to <strong>8 pages excluding</strong> references, no appendix or supplementary;</li>
+        <li> <strong>Extended Abstract</strong>: submissions are limited to <strong>4 pages excluding</strong> references, no appendix or supplementary. </li>
+
+  </ul>
+
+    </p>
+
+
+    <p class="lead">
+    Only long papers will be included in the CVPR 2026 proceedings.
+    </p>
+
+    <p class="lead">
+    ===
+    </p>
+
+
+    <p class="lead">
+    <!-- <strong>Submission Site</strong>: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/EDGE">https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/EDGE</a>  </a> -->
+    <strong>Submission Site</strong>: To be announced. </a>
+    </p>
+
+
+    <p class="lead">
+
+<!--        <strong>Submission Due</strong>: <strong><strike>March 22, 2024 (AOE)</strike> </strong> <strong>  March 26, 2024 (AOE) </strong>-->
+    <strong>
+    Submission Deadline:
+    <span style="color:#fcd045;">March 1, 2025 (AOE)</span>
+    </strong>
+    </p>
+
+    <p class="lead">
+    <strong>Workshop Date</strong>: <strong> June 3 or 4, 2026</strong>
+    </p>
+
+    <!-- p class="lead">
+    <strong>Workshop Location</strong>: <strong>Room: 208 A</strong>
+    </p> -->
+
+    <!-- <p class="lead">
+    <strong>Poster Session</strong>: <strong><span style="color:red;">June 12, 2025, 12:00-13:00 (before the workshop starts)</span></strong>
+    </p>
+
+    <p class="lead">
+    <strong>Poster Session Location</strong>: <strong>ExHall D, Board #202-214</strong>
+    </p> -->
+
+
+</div><!-- container-->
+
+
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="speakers">
+<h1>Speakers</h1>
+</div>
+<br>
+
+
+<div class="container text-center">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+
+
+      <div class="col">
+        <a href="https://jimeiyang.github.io/">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/jimei.jpg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Jimei Yang</h3>
+        </a>
+        <p style="color:grey">Runway</p>
+      </div><!-- /div -->
+
+      <div class="col">
+        <a href="https://scholar.google.com/citations?user=IqJ3zskAAAAJ&hl=en">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/mateusz.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Mateusz Malinowski</h3>
+        </a>
+        <p style="color:grey">Moonvalley</p>
+      </div><!-- /div -->
+
+      <div class="col">
+        <a href="https://tsong.me/">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/jiaming.jpg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Jiaming Song</h3>
+        </a>
+        <p style="color:grey">Luma AI</p>
+      </div><!-- /div -->
+
+      <div class="col">
+        <a href="https://www.utopaistudios.com/people/jie-yang">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/jie.jpg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Jie Yang</h3>
+        </a>
+        <p style="color:grey">Utopai</p>
+      </div><!-- /div -->
+
+
+      <div class="col">
+        <a href="https://cs.stanford.edu/~chenlin/">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/chenlin.jpg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Chenlin Meng</h3>
+        </a>
+        <p style="color:grey">Pika</p>
+      </div><!-- /div -->
+
+
+      <div class="col">
+        <a href="https://www.linkedin.com/in/caryphillips/">
+        <img class="rounded-circle" width="200" height="200" src="edge_pics/cary.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Cary Phillips</h3>
+        </a>
+        <p style="color:grey">Industrial Light & Magic</p>
+      </div><!-- /div -->
+
+
+
+
+
+    </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<!--
+<br>
+<hr>
+<br>
+<div class="text-center" id="schedule">
+<h1>Schedule</h1>
+    Each talk is assigned a 25 min slot (20 min talk + 4 min QA + 1 min buffer)
+</div>
+<br>
+
+<div class="container text-center">
+
+    <div style="display: flex; justify-content: center;">
+        <table border="1" style="border-collapse: collapse;">
+            <tr style="background-color: #f0f0f0;">
+                <th style="padding: 10px;">Time</th>
+                <th style="padding: 10px;">Activity</th>
+                <th style="padding: 10px;">Title</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">13:00 - 13:10</td>
+                <td style="padding: 10px;"><a href="EDGE_2025_Opening_Remarks.pdf">Opening Remarks and Award Announcement</a></td>
+                <td style="padding: 10px;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">13:10 - 13:35</td>
+                <td style="padding: 10px;">Ziwei Liu, Nanyang Technological University</td>
+                <td style="padding: 10px;"><em>"From Multimodal Generative Models to Dynamic World Modeling"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">13:35 - 14:00</td>
+                <td style="padding: 10px;">Stefano Ermon, Stanford University</td>
+                <td style="padding: 10px;"><em>"Accelerating Inference in Diffusion Models"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">14:00 - 14:25</td>
+                <td style="padding: 10px;">Ishan Misra, GenAI at Meta</td>
+                <td style="padding: 10px;"><em>"Scale Efficient Video Generation and Tokenization"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">14:25 - 14:50</td>
+                <td style="padding: 10px;">Sergey Tulyakov, Snap Inc.</td>
+                <td style="padding: 10px;"><em>"Sharpening the Edge: High Quality Image and Video Synthesis on Mobiles"</em></td>
+            </tr>
+            <tr style="background-color: #f0f0f0;">
+                <td style="padding: 10px;">14:50 - 14:55</td>
+                <td style="padding: 10px;" colspan="2" align="center"><strong>Break</strong></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">14:55 - 15:20</td>
+                <td style="padding: 10px;">Jiaming Song, Luma AI</td>
+                <td style="padding: 10px;"><em>"Breaking the Algorithmic Ceiling in Pre-Training with a Inference-first Perspective"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">15:20 - 15:45</td>
+                <td style="padding: 10px;">Jun-Yan Zhu, Carnegie Mellon University</td>
+                <td style="padding: 10px;"><em>"Distilling Diffusion Models into Conditional GANs"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">15:45 - 16:10</td>
+                <td style="padding: 10px;">Lu Jiang, ByteDance</td>
+                <td style="padding: 10px;"><em>"Cost-Effective Training of Video Generation Foundation Model"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">16:10 - 16:35</td>
+                <td style="padding: 10px;">Enze Xie, Nvidia</td>
+                <td style="padding: 10px;"><em>"Building Image Generation model from scratch and Acceleration"</em></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">16:35 - 17:00</td>
+                <td style="padding: 10px;">Lu Liu, OpenAI</td>
+                <td style="padding: 10px;"><em>"A Brief Introduction of 4o Image Generation"</em></td>
+            </tr>
+        </table>
+    </div>
+</div>
+ -->
+
+<!-- /.container -->
+
+
+
+<!--
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="accepted-papers">
+<h1>Accepted Papers</h1>
+</div>
+<br>
+
+<div class="container">
+    <p class="lead">
+        We are pleased to announce the accepted papers for the Second Workshop on Efficient and On-Device Generation (EDGE) at CVPR 2025. Congratulations to all authors!
+    </p>
+
+    <h2>Long Papers</h2>
+    <ul class="lead">
+        <li>
+            <strong>Title:</strong> Geometric Consistency Refinement for Single Image Novel View Synthesis via Test-Time Adaptation of Diffusion Models<br>
+            <strong>Authors:</strong> Josef Bengtson (Chalmers University of Technology), David Nilsson (Chalmers University of Technology), Fredrik Kahl (Chalmers University of Technology)<br>
+            <strong> <span style="color:red;">[Poster # 202] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> AdaVid: Adaptive Video-Language Pretraining<br>
+            <strong>Authors:</strong> Chaitanya Patel (Stanford University), Juan Carlos Niebles (Salesforce Research), Ehsan Adeli (Stanford University)<br>
+            <strong> <span style="color:red;">[Poster # 203] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> LLMPi: Optimizing LLMs for High-Throughput on Raspberry Pi<br>
+            <strong>Authors:</strong> Mahsa Ardakani (University of South Carolina), Jinendra Malekar (University of South Carolina), Ramtin Zand (University of South Carolina)<br>
+            <strong> <span style="color:red;">[Poster # 204] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> Latent Patched Efficient Diffusion Model For High Resolution Image Synthesis<br>
+            <strong>Authors:</strong> Weiyun Jiang (Rice University), Devendra Kumar Jangid (Samsung Research America), Seok-Jun Lee (Samsung Research America), Hamid Rahim Sheikh (Samsung Research America) <br>
+            <strong> <span style="color:red;">[Poster # 205] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> ADAPTOR: Adaptive Token Reduction for Video Diffusion Transformers<br>
+            <strong>Authors:</strong> Elia Peruzzo (University of Trento), Adil Karjauv (Qualcomm), Nicu Sebe (University of Trento), Amir Ghodrati (Qualcomm AI Research), Amir Habibian (Qualcomm)<br>
+            <strong> <span style="color:red;">[Poster # 206] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> Scaling On-Device GPU Inference for Large Generative Models<br>
+            <strong>Authors:</strong> Jiuqiang Tang (Google), Raman Sarokin (Google), Ekaterina Ignasheva (Meta), Grant Jensen (Google), Lin Chen (Google), Juhyun Lee (Google), Andrei Kulik (Google), Matthias Grundmann (Google) <br>
+            <strong> <span style="color:red;">[Poster # 207] </span></strong>
+        </li>
+    </ul>
+
+    <h2>Short Papers</h2>
+    <ul class="lead">
+        <li>
+            <strong>Title:</strong> Random Conditioning for Diffusion Model Compression with Distillation<br>
+            <strong>Authors:</strong> Dohyun Kim (Korea University), Sehwan Park (Korea University), Geonhee Han (Korea University), Seung Wook Kim (Nvidia), Paul Hongsuck Seo (Korea University)<br>
+            <strong> <span style="color:red;">[Poster # 208] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> LatentLLM: Attention-Aware Joint Tensor Compression<br>
+            <strong>Authors:</strong> Toshiaki Koike-Akino (Mitsubishi Electric Research Labs), Xiangyu Chen (Mitsubishi Electric Research Labs), Jing Liu (Mitsubishi Electric Research Labs), Ye Wang (Mitsubishi Electric Research Labs), Pu Perry Wang (Mitsubishi Electric Research Labs), Matthew Brand (Mitsubishi Electric Research Labs)<br>
+            <strong> <span style="color:red;">[Poster # 209] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> MS-Temba: Multi-Scale Temporal Mamba for Efficient Temporal Action Detection<br>
+            <strong>Authors:</strong> Arkaprava Sinha (University of North Carolina at Charlotte), Monish Soundar Raj (University of North Carolina at Charlotte), Pu Wang (University of North Carolina at Charlotte), Ahmed Helmy (University of North Carolina at Charlotte), Srijan Das (University of North Carolina at Charlotte)<br>
+            <strong> <span style="color:red;">[Poster # 210] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> TuneComp: Joint Fine-Tuning and Compression for Large Foundation Models<br>
+            <strong>Authors:</strong> Xiangyu Chen (Mitsubishi Electric Research Labs), Jing Liu (Mitsubishi Electric Research Labs), Ye Wang (Mitsubishi Electric Research Labs), Matthew Brand (Mitsubishi Electric Research Labs), Pu Perry Wang (Mitsubishi Electric Research Labs), Toshiaki Koike-Akino (Mitsubishi Electric Research Labs)<br>
+            <strong> <span style="color:red;">[Poster # 211] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> Efficient Personalization of Quantized Diffusion Model without Backpropagation<br>
+            <strong>Authors:</strong> Hoigi Seo (Seoul National University), Wongi Jeong (Seoul National University), Kyungryeol Lee (Seoul National University), Se Young Chun (Seoul National University) <br>
+            <strong> <span style="color:red;">[Poster # 212] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> Atlas: Multi-Scale Attention Improves Long Context Image Modeling<br>
+            <strong>Authors:</strong> Kumar Krishna Agrawal (University of California, Berkeley), Long Lian (University of California, Berkeley), Longchao Liu (University of California, Berkeley), Natalia Harguindeguy (University of California, Berkeley), Boyi Li (Nvidia Research), Alexander G Bick (Vanderbilt University), Maggie Chung (University of California, San Francisco), Trevor Darrell (University of California, Berkeley), Adam Yala (University of California, Berkeley)<br>
+            <strong> <span style="color:red;">[Poster # 213] </span></strong>
+        </li>
+        <li>
+            <strong>Title:</strong> LoRA.rar: Learning to Merge LoRAs via Hypernetworks for Subject-Style Conditioned Image Generation<br>
+            <strong>Authors:</strong> Donald Shenaj (Samsung R&D Institute UK (SRUK), University of Padova), Ondrej Bohdal (Samsung R&D Institute UK (SRUK)), Mete Ozay (Samsung R&D Institute UK (SRUK)), Pietro Zanuttigh (University of Padova), Umberto Michieli (Samsung R&D Institute UK (SRUK))<br>
+            <strong> <span style="color:red;">[Poster # 214] </span></strong>
+        </li>
+    </ul>
+</div> -->
+
+
+<!-- container-->
+
+
+
+<!--
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="accepted-papers">
+<h1>Awards</h1>
+</div>
+<br>
+
+<div class="container">
+    <p class="lead">
+        We are pleased to announce two paper awards at CVPR 2025 EDGE workshop, which will be sponsored by PixVerse. Congratulations to the award winners!
+    </p>
+
+    <h2>Best Paper Award</h2>
+    <ul class="lead">
+        <li>
+            <strong>Title:</strong> AdaVid: Adaptive Video-Language Pretraining<br>
+            <strong>Authors:</strong> Chaitanya Patel (Stanford University), Juan Carlos Niebles (Salesforce Research), Ehsan Adeli (Stanford University)<br>
+            <strong> <span style="color:red;">[Poster # 203] </span></strong>
+        </li>
+    </ul>
+
+    <h2>Best Paper Runner-Up Award</h2>
+    <ul class="lead">
+        <li>
+            <strong>Title:</strong> Scaling On-Device GPU Inference for Large Generative Models<br>
+            <strong>Authors:</strong> Jiuqiang Tang (Google), Raman Sarokin (Google), Ekaterina Ignasheva (Meta), Grant Jensen (Google), Lin Chen (Google), Juhyun Lee (Google), Andrei Kulik (Google), Matthias Grundmann (Google) <br>
+            <strong> <span style="color:red;">[Poster # 207] </span></strong>
+        </li>
+    </ul>
+</div>
+
+-->
+
+<!-- container-->
+
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="organizers">
+<h1>Organizing Committee</h1>
+</div>
+<br>
+
+
+<div class="container text-center">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+
+
+      <div class="col">
+        <a href="https://xujuefei.com/">
+        <img class="rounded-circle" width="200" height="auto" src="edge_pics/felix_louvre_zoom.jpg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Felix Juefei-Xu</h3>
+        </a>
+        <p style="color:grey">Meta</p>
+      </div><!-- /div -->
+
+
+      <div class="col">
+        <a href="https://www.imdb.com/name/nm3148163/">
+        <img class="rounded-circle" width="200" height="auto" src="edge_pics/stephane_2.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Stephane Grabli</h3>
+        </a>
+        <p style="color:grey">Meta</p>
+      </div><!-- /div -->
+
+
+      <div class="col">
+        <a href="https://cliangyu.com/">
+        <img class="rounded-circle" width="200" height="auto" src="edge_pics/leon.jpeg"><rect width="100%" height="100%"></rect></img>
+        <h3 class="fw-normal">Leon Liangyu Chen</h3>
+        </a>
+        <p style="color:grey">Stanford</p>
+      </div><!-- /div -->
+
+
+
+ </div><!-- /.row -->
+</div><!-- /.container -->
+
+<!--
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="program-committee">
+<h1>Program Committee</h1>
+</div>
+<br>
+
+<div class='container lead'>
+<ul>
+<li>Alexander Robey (University of Pennsylvania)</li>
+<li>Chengzhi Mao (Columbia University)</li>
+<li>Dingcheng Yang (Tsinghua University)</li>
+<li>Emily Diana (University of Pennsylvania)</li>
+<li>Gaurang Sriramanan (University of Maryland, College Park)</li>
+<li>Hanxun Huang (The University of Melbourne)</li>
+<li>Haoxuanye Ji (Xi'an JiaoTong University)</li>
+<li>Jiachen Sun (University of Michigan)</li>
+<li>Julia Grabinski (University Siegen)</li>
+<li>Junyang Wu (Shanghai Jiao Tong university)</li>
+<li>Kibok Lee (Yonsei University)</li>
+<li>Muzammal Naseer (MBZUAI)</li>
+<li>Pengliang Ji (Beihang University)</li>
+<li>Peter Lorenz (Fraunhofer)</li>
+<li>Qihao Liu (Johns Hopkins University)</li>
+<li>Sahil Verma (University of Washington)</li>
+<li>Salah GHAMIZI (University of Luxembourg)</li>
+<li>ShengYun Peng (Georgia Institute of Technology)</li>
+<li>Simin Li (Beihang University)</li>
+<li>Won Park (Aura)</li>
+<li>Wufei Ma (Johns Hopkins University)</li>
+<li>Xianhang Li (University of California, Santa Cruz)</li>
+<li>Xinyu Zhang (Zhejiang University)</li>
+<li>Yulong Cao (University of Michigan, Ann Arbor )</li>
+<li>Zihao Xiao (Johns Hopkins University)</li>
+<li>Ziqi Zhang (Google)</li>
+</ul>
+</div>
+
+-->
+
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="dates">
+<h1>Important Dates</h1>
+</div>
+<br>
+
+<div class="container lead">
+
+<ul class="lead">
+
+<!--    <li> <strong>Submission Deadline: <strike>March 22, 2024 (AOE)</strike> March 26, 2024 (AOE) </strong></li>-->
+<li>
+  <strong>
+    Submission Deadline:
+    <span style="color:#fcd045;">March 1, 2026 (AOE)</span>
+  </strong>
+</li>
+    <li> <strong>Author Notification: March 19, 2026</strong> </li>
+
+    <li> <strong>Camera-Ready Deadline: April 9, 2026</strong></li>
+
+    <li> <strong>Workshop Time and Location: June 3 or 4, 2026</strong></li>
+</ul>
+</div>
+
+
+
+<!--
+
+<div class="container text-center lead">
+<h1>Information for Presenters</h1>
+</div>
+
+<div class="container lead">
+<ol>
+    <li>
+    <p>Invited talk</p>
+    <p>Each workshop room will be equipped with A/V systems for presentation, including a HDMI cable to connect one machine (speaker's PC or Mac), 2 microphones on the podium, 2 wireless microphones, and video projectors. The aspect ratio of the screen will be 16:9.
+Please encourage presenters to attend the workshop in person and communicate with participants at the venue. If the presenters are not able to attend in person, remote presentation is also allowed. In this case, no registration is needed for invited speakers. Note, however, that remote presenters with IEEE/CVF workshop papers must have (at least one-day) workshops/tutorials pass registration. Please check out the authors note on the registration page: https://iccv2023.thecvf.com/registration-81.php</p>
+    </li>
+
+    <li>
+    <p>Poster presentation (95.4 cm x 138.8 cm, portrait format)</p>
+    <p>Workshop poster sessions will be held in each workshop room, and poster panels will be provided and arranged inside the room. Note that the poster size for workshops is different from that for the main conference. The workshop poster panel size will be 95.4 cm x 138.8 cm (WxH, aspect ratio 0.69:1, portrait format). A0 paper in portrait would well fit the panel by some margin. Please make sure to notify this information to the workshop poster presenters.
+There will be an on-site printing service from which you can collect your printed poster. You will receive more information about the on-site printing service in a separate email later.</p>
+    </li>
+
+    <li>
+    <p>Workshop streaming</p>
+    <p>If you plan to live-stream your workshop, a Wi-Fi network enough for streaming will be provided for each workshop room. However, we do not provide technical support for workshop streaming, and thus streaming of workshops should be managed by each organizer. </p>
+    </li>
+
+    <li>
+    <p>Workshop Rooms</p>
+    <p> The workshop rooms are already announced on the <a href="https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php">ICCV webpage.</a></p>
+
+    <p>
+We have updated some initial room assignments based on the registration survey, so please double-check your room code, although you have done it before.
+    </p>
+    <p>
+Each room of East or West, whose code starts with E or W, accommodates 160~190 seats. It will be equipped with A/V systems, including an HDMI cable to connect one machine (speaker's PC or Mac), 2 microphones on the podium, 2 wireless microphones, and video projectors (8K lumens). The screen's aspect ratio will be 16:9. One technician is assigned to two rooms to help you set up A/V systems.
+    </p>
+
+    <p>
+Each room of South, whose code starts with S, has 570 seats. It will also be equipped with A/V systems, including an HDMI cable to connect one machine (speaker's PC or Mac), 2 microphones on the podium, 4 wireless microphones, and video projectors (12K lumens). The screen's aspect ratio will be 16:9. One technician is assigned to help you set up A/V systems.
+    </p>
+
+    <p>
+Some workshops are assigned to the plenary room P01, the largest room, which will be provided with better equipment than the South rooms.
+Note that the number of seats in each room may decrease to get space for poster panels.
+    </p>
+
+</ol>
+</div>
+-->
+
+
+
+
+
+
+<br>
+<hr>
+<br>
+
+<div class="text-center" id="sponsor">
+  <h1>Sponsor</h1>
+
+  <div class="responsive-image mx-auto" style="margin-bottom: 1em;">
+  </div>
+
+<!-- <div class="container">
+  <div class="responsive-image mx-auto">
+    <img src="edge_pics/PixVerse_logo_black.png" alt="PixVerse">
+  </div>
+
+    <p class="lead">
+    PixVerse is one of world’s largest GenAI platforms with over 70 million users worldwide and driven by in-house developed video generation models that deliver superior quality and efficiency. PixVerse aims to democratize video creation by enabling the billions of viewers—who have never made a video—to produce their first share-worthy video with AI.
+    </p>
+
+  <div class="text-center" style="margin-top: 1em;">
+    <a href="https://pixverse.ai" target="_blank" rel="noopener">
+      Visit PixVerse Website
+    </a>
+  </div> -->
+
+</div><!-- /.container -->
+
+  <br>
+  <br>
+</div>
+
+<br>
+
+<div class="container text-center">
+<h4>Please <a href="#contact">contact us</a> (see bottom of this page) if you are interested in sponsoring this workshop!</h4>
+
+</div>
+
+
+<!--container-->
+
+
+
+<!--
+
+
+<br>
+<hr>
+<br>
+<div class="text-center" id="tweets">
+<h1>Social Network Updates</h1>
+</div>
+<br>
+
+<div class='container text-center'>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 [Deadline Extension] Good news! We have extended the submission deadline for the 4th Workshop on Adversarial Robustness In the Real World, ICCV2023!<br><br>📅 New DDL: July 20, 2023, 23:59 PT<br><br>📷 Workshop Website: <a href="https://t.co/r9tu5UvuG8">https://t.co/r9tu5UvuG8</a><a href="https://twitter.com/hashtag/AROW?src=hash&amp;ref_src=twsrc%5Etfw">#AROW</a> <a href="https://twitter.com/hashtag/ICCV2023?src=hash&amp;ref_src=twsrc%5Etfw">#ICCV2023</a> <a href="https://twitter.com/hashtag/AdversarialRobustness?src=hash&amp;ref_src=twsrc%5Etfw">#AdversarialRobustness</a></p>&mdash; M. Zhou (@MZhou73277685) <a href="https://twitter.com/MZhou73277685/status/1681201839092695040?ref_src=twsrc%5Etfw">July 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 [Call For Papers] We invite participants to submit their work to the 4th Workshop on Adversarial Robustness In the Real World, ICCV 2023, France!<br><br>📷 Workshop Website: <a href="https://t.co/r9tu5UvuG8">https://t.co/r9tu5UvuG8</a><a href="https://twitter.com/hashtag/AROW?src=hash&amp;ref_src=twsrc%5Etfw">#AROW</a> <a href="https://twitter.com/hashtag/ICCV2023?src=hash&amp;ref_src=twsrc%5Etfw">#ICCV2023</a> <a href="https://twitter.com/hashtag/AdversarialRobustness?src=hash&amp;ref_src=twsrc%5Etfw">#AdversarialRobustness</a> <a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/ComputerVision?src=hash&amp;ref_src=twsrc%5Etfw">#ComputerVision</a> <a href="https://twitter.com/hashtag/Paris?src=hash&amp;ref_src=twsrc%5Etfw">#Paris</a></p>&mdash; M. Zhou (@MZhou73277685) <a href="https://twitter.com/MZhou73277685/status/1675380995456126976?ref_src=twsrc%5Etfw">July 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📢 Exciting news! Join us at the 4th Workshop on Adversarial Robustness In the Real World, happening at ICCV 2023 in Paris, France. 🌍🤖<br><br>🔗 Workshop Website: <a href="https://t.co/ELnVUJyg3H">https://t.co/ELnVUJyg3H</a><a href="https://twitter.com/hashtag/AROW?src=hash&amp;ref_src=twsrc%5Etfw">#AROW</a> <a href="https://twitter.com/hashtag/ICCV2023?src=hash&amp;ref_src=twsrc%5Etfw">#ICCV2023</a> <a href="https://twitter.com/hashtag/AdversarialRobustness?src=hash&amp;ref_src=twsrc%5Etfw">#AdversarialRobustness</a> <a href="https://twitter.com/hashtag/DeepLearning?src=hash&amp;ref_src=twsrc%5Etfw">#DeepLearning</a> <a href="https://twitter.com/hashtag/ComputerVision?src=hash&amp;ref_src=twsrc%5Etfw">#ComputerVision</a> <a href="https://twitter.com/hashtag/Paris?src=hash&amp;ref_src=twsrc%5Etfw">#Paris</a></p>&mdash; M. Zhou (@MZhou73277685) <a href="https://twitter.com/MZhou73277685/status/1675377802349264896?ref_src=twsrc%5Etfw">July 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+-->
+
+
+
+
+
+
+
+
+<br>
+
+<footer class="py-5 text-center text-body-secondary bg-body-tertiary" id="contact">
+  <p>Please contact <a href="mailto:juefei.xu@gmail.com">Felix Juefei Xu</a> if you have questions.</p>
+  <p>The webpage is adapted from <a href="https://iccv23-arow.github.io/">ICCV 2023 AROW Workshop</a> webpage created by <a href="https://cdluminate.github.io/">Mo Zhou</a>. The <a href="https://github.com/iccv23-arow/iccv23-arow.github.io">HTML source code</a> is released under the CC-0 license.</p>
+  <p>CVPR 2026 J2A Workshop</p>
+  <p class="mb-0">
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+  </body>
+</html>
